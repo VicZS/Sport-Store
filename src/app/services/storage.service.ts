@@ -17,7 +17,6 @@ export class StorageService {
     const storage = await this.storage.create();
     this._storage = storage;
     
-    // Cargar el carrito desde el almacenamiento al inicializar
     const carrito = await this._storage.get('Carrito');
     this._Carrito = carrito || [];
   }
@@ -54,7 +53,7 @@ export class StorageService {
 
   async existeItemCarrito(id: number) {
     const exists = this._Carrito.find(itemCarrito => itemCarrito.id === id);
-    return !!exists; // Retorna true o false
+    return !!exists;
   }
 
   async obtenerItemCarrito(id: number) {

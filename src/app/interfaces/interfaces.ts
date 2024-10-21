@@ -12,7 +12,14 @@ export interface Disciplina{
   precio_sin_IVA: number;
 }
 
-export interface itemTicket{
+export interface itemCarrito{
   id: number;
   cantidad: number;
+  costoTotalItems: number;
+}
+
+export interface carrito{
+  idCarrito: number;
+  itemComprado: itemCarrito;
+  totalCarrito: number;
 }

@@ -5,9 +5,14 @@ export interface Componente{
 }
 
 export interface Disciplina{
-  id: Int32Array;
+  id: number;
   img: string;
   name: string;
   description: string;
-  precio_sin_IVA: Float64Array;
+  precio_sin_IVA: number;
+}
+
+export interface itemTicket{
+  id: number;
+  cantidad: number;
 }

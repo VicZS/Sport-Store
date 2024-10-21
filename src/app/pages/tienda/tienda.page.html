@@ -42,17 +42,22 @@
       <ion-col size-xl="2" size-lg="3" size-md="4"  size-sm="6" size-xm="12"
       *ngFor="let item of disiplinas | async">
         <ion-card>
-          <img [src]="item.img" alt="BALONCESTO">
+          <img [src]="item.img" [alt]="item.name">
           <ion-card-header>
             <ion-card-title> {{item.name}} </ion-card-title>
             <ion-card-subtitle class="justify-text"> {{item.description}} </ion-card-subtitle>
+            <ion-text color="primary">
+              <h3>${{(item.precio_sin_IVA * 1.16) | number:'1.2-2'}} <small>El precio incluye IVA</small> </h3>
+            </ion-text>
           </ion-card-header>
 
           <ion-card-content class="ion-text-end">
-            <ion-button shape="round" fill="outline">
+
+            <ion-button (click)="alertaDisciplina( item )" shape="round" fill="outline">
               <ion-icon slot="start" name="add" size="large"></ion-icon>
               Agregar al carrito
             </ion-button>
+
           </ion-card-content>
         </ion-card>
       </ion-col>

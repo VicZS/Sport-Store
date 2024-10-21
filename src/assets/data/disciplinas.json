@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "img": "/assets/GAFETES/BALONCESTO.png",
+        "name": "BALONCESTO",
+        "description": "Pase de club deportivo para entrenar en la disciplina de baloncesto. Acceso a entrenamientos y actividades del club.",
+        "precio_sin_IVA": 125.50
+    },
+    {
+        "id": 2,
+        "img": "/assets/GAFETES/BOXEO.png",
+        "name": "BOXEO",
+        "description": "Pase de club deportivo para la disciplina de boxeo, ideal para entrenamientos y sesiones del club.",
+        "precio_sin_IVA": 145.50
+    },
+    {
+        "id": 3,
+        "img": "/assets/GAFETES/BAILE-COREOGRÁFICO.png",
+        "name": "BAILE COREOGRÁFICO",
+        "description": "Este pase permite el acceso a entrenamientos de baile coreográfico dentro del club deportivo.",
+        "precio_sin_IVA": 120.85
+    },
+    {
+        "id": 4,
+        "img": "/assets/GAFETES/FRONTÓN.png",
+        "name": "FRONTÓN",
+        "description": "Pase de club deportivo para practicar y entrenar en la disciplina de frontón.",
+        "precio_sin_IVA": 125.85
+    },
+    {
+        "id": 5,
+        "img": "/assets/GAFETES/FUTBOL-SOCCER.png",
+        "name": "FUTBOL SOCCER",
+        "description": "Este pase permite el acceso a entrenamientos de fútbol soccer dentro del club deportivo.",
+        "precio_sin_IVA": 190.25
+    },
+    {
+        "id": 6,
+        "img": "/assets/GAFETES/GIMNASIA-RÍTMICA.png",
+        "name": "GIMNASIA RÍTMICA",
+        "description": "Pase de club deportivo para entrenar en la disciplina de gimnasia rítmica, con acceso a todas las actividades del club.",
+        "precio_sin_IVA": 200.00
+    },
+    {
+        "id": 7,
+        "img": "/assets/GAFETES/NATACIÓN.png",
+        "name": "NATACIÓN",
+        "description": "Este pase permite entrenar en la disciplina de natación dentro del club deportivo, con acceso completo a las instalaciones.",
+        "precio_sin_IVA": 125.50
+    },
+    {
+        "id": 8,
+        "img": "/assets/GAFETES/TAEKWONDO.png",
+        "name": "TAEKWONDO",
+        "description": "Pase de club deportivo para entrenar en la disciplina de taekwondo, ideal para quienes buscan mejorar sus habilidades.",
+        "precio_sin_IVA": 175.50
+    },
+    {
+        "id": 9,
+        "img": "/assets/GAFETES/TENIS.png",
+        "name": "TENIS",
+        "description": "Este pase otorga acceso a entrenamientos y prácticas de tenis dentro del club deportivo.",
+        "precio_sin_IVA": 225.50
+    }
+]

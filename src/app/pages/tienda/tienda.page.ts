@@ -1,10 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { Disciplina } from 'src/app/interfaces/interfaces';
+import { DataService } from '../../services/data.service';
 
-interface Componente{
-  icon: string;
-  name: string;
-  redirectTo: string;
-}
+
 
 @Component({
   selector: 'app-tienda',
@@ -13,13 +12,13 @@ interface Componente{
 })
 export class TiendaPage implements OnInit {
 
-  componentes:Component[] = [
-     
-  ];
+  disiplinas: Observable<Disciplina[]> = new Observable<Disciplina[]>();
 
-  constructor() { }
+  constructor( private dataService: DataService) { }
 
   ngOnInit() {
+    this.disiplinas = this.dataService.getDisciplinas();
+
   }
 
 }
